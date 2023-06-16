@@ -85,7 +85,7 @@ jobs:
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_upload_readings.patch | git apply
           
           # OmniBLE/OmnipodCommon/Pod.swift: increase pod insertion insulin from 0.0 to 0.35
-          curl https://github.com/shake73/OmniBLE/commit/e59680d00edcb3fb38fa39b7b76e37d0445202b7.patch | git apply -v --directory=OmniBLE
+          curl https://github.com/shake73/OmniBLE/commit/e59680d00edcb3fb38fa39b7b76e37d0445202b7.patch | git apply --directory=OmniBLE
  
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
