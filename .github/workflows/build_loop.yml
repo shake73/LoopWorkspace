@@ -79,7 +79,7 @@ jobs:
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/cage.patch | git apply
                   
           # SAGE: upload Dexcom sensor start to Nightscout
-          #curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_sage.patch | git apply
+          curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_sage.patch | git apply
                   
           # Set Default selection to upload Dexcom readings to remote services (Nightscout and Tidepool)
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_upload_readings.patch | git apply
@@ -91,7 +91,7 @@ jobs:
           #curl https://github.com/shake73/LoopWorkspace/commit/981923fff9ebae936f907f3faaa794e34708ec5d.patch | git apply --directory=LoopWorkspace
  
           # Add panda icons
-          curl https://github.com/shake73/LoopWorkspace/commit/66669efabc1a9901cd647196053b473ca0de16f8.patch | git apply --directory=LoopWorkspace
+          #curl https://github.com/shake73/LoopWorkspace/commit/66669efabc1a9901cd647196053b473ca0de16f8.patch | git apply --directory=LoopWorkspace
     
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
