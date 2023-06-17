@@ -88,7 +88,7 @@ jobs:
           curl https://github.com/shake73/OmniBLE/commit/e59680d00edcb3fb38fa39b7b76e37d0445202b7.patch | git apply --directory=OmniBLE
     
           # Add Adult-Child insulin model
-          curl https://github.com/shake73/LoopWorkspace/commit/981923fff9ebae936f907f3faaa794e34708ec5d.patch | git apply --directory=LoopWorkspace
+          #curl https://github.com/shake73/LoopWorkspace/commit/981923fff9ebae936f907f3faaa794e34708ec5d.patch | git apply --directory=LoopWorkspace
  
           # Add panda icons
           curl https://github.com/shake73/LoopWorkspace/commit/66669efabc1a9901cd647196053b473ca0de16f8.patch | git apply --directory=LoopWorkspace
