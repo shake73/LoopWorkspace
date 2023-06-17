@@ -79,7 +79,7 @@ jobs:
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/cage.patch | git apply
                   
           # SAGE: upload Dexcom sensor start to Nightscout
-          curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_sage.patch | git apply
+          #curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_sage.patch | git apply
                   
           # Set Default selection to upload Dexcom readings to remote services (Nightscout and Tidepool)
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_upload_readings.patch | git apply
