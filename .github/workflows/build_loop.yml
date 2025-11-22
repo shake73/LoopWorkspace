@@ -218,6 +218,7 @@ jobs:
           dexcom_upload_readings \
           future_carbs_4h \
           low_carb_limit \
+          no_auth \
           override_sens \
           now_line \
           watch_title \
@@ -227,6 +228,7 @@ jobs:
           basal_lock \
           live_activity \
           negative_insulin \
+          bolus_display \
           remote_window
 
           # the final customization listed above CANNOT have a continuation character
