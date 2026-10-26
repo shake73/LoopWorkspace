@@ -216,6 +216,7 @@ jobs:
           no_auth \
           override_sens \
           now_line \
+          watch_title \
           2hlollipop \
           meal_days \
           cgm_sensor_notes \
